@@ -70,11 +70,10 @@ Products Section
     padding: 20px 0;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-    gap: 10px;
+    gap: 20px;
 }
 .product{
     border: 1px solid #555;
-    width: 200px;
     margin: 0 auto;
     border-radius: 10px;
     overflow: hidden;
@@ -83,7 +82,7 @@ Products Section
 }
 .product img{
     width: 100%;
-    height: 250px;
+    height: 350px;
 }
 .product-details{
     width: 100%;
@@ -110,7 +109,7 @@ Products Section
     background-color: transparent;
 }
 
-@media screen and (max-width:420px){
+@media screen and (max-width:450px){
     h1{
         font-size: 1.5rem;
         text-align: left;
