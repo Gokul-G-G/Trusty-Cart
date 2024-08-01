@@ -1,6 +1,9 @@
+/* ==================
+Variables
+===================== */
 :root{
-    --clr--secondary:rgb(247,154,172);
-    --clr--primary:rgb(213,70,100);
+    --clr-primary:rgb(213,70,100);
+    --clr-primary-light:rgb(247,154,172);
 }
 
 /* ==================
@@ -8,6 +11,9 @@ Global Styling
 ===================== */
 a{
     text-decoration: none;
+}
+ul>li{
+    list-style:none;
 }
 
 *{ 
@@ -21,7 +27,31 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    border: 2px solid black;
     padding: 20px 0;
     text-align: center;
+}
+header h1 a{
+    color: var(--clr-primary);
+    
+}
+
+/* ==================
+Navigation
+===================== */
+
+nav{
+    padding: 20px 0; 
+    background-color: var(--clr-primary);
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li a{
+    color:#fff;
+    padding: 20px;
+}
+nav ul li a:hover{
+background-color:var(--clr-primary-light);
+color:var(--clr-primary)
 }
