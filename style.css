@@ -113,6 +113,30 @@ Products Section
     background-color: transparent;
 }
 
+/* ==================
+Footer
+===================== */
+
+footer{
+    height: 100px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: var(--clr-primary);
+    color: #fff;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+footer ul li a{
+    font-size: 1.5rem;
+    padding-right: 10px;
+    color:#fff ;
+}
+footer ul li a:hover{
+    color: var(--clr-primary-light);
+}
+
 @media screen and (max-width:450px){
     h1{
         font-size: 1.5rem;
