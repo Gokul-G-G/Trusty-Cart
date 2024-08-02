@@ -77,8 +77,12 @@ Products Section
     margin: 0 auto;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 1px 1px 10px 2px #555;
+    /* box-shadow: 1px 1px 10px 2px #555; */
     transition: all ease-in-out 0.3s;
+}
+.product:hover{
+    transform:scale(1.02);
+    box-shadow: 1px 1px 10px 2px #555;
 }
 .product img{
     width: 100%;
