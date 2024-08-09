@@ -121,7 +121,7 @@ Footer
 ===================== */
 
 footer{
-    height: 100px;
+    height: 150px;
     padding-top: 10px;
     text-align: center;
     background-color: var(--clr-primary);
